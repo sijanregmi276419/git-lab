@@ -81,4 +81,64 @@ Changes to be committed:
         new file:   README.md
 
 Answer 6
+On branch master
 
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+        new file:   answers.md
+
+Answer 7
+[master (root-commit) 1fca441] Initial commit
+ 2 files changed, 86 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 answers.md
+
+Answer 8
+commit 1fca441a597c65c31ef9c3b9db4668d2ace93bd1 (HEAD -> master)
+Author: Sijan Regmi <sr276419@ohio.edu>
+Date:   Sat May 16 01:47:20 2020 -0400
+
+    Initial commit
+
+Answer 9
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.65 KiB | 281.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/sijanregmi276419/git-lab.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Answer 10
+No. Changes made online doesnot relect on local copy
+
+Answer 11
+ To https://github.com/sijanregmi276419/git-lab.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/sijanregmi276419/git-lab.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Answer 12
+Yes changes made online was seen locally
+CS 2400, Section 107 was added in local repository
+
+Answer 13
+  Directory: C:\Users\user\Desktop\cs2400
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        5/16/2020   3:54 AM                git-lab
+d-----        5/16/2020   6:05 AM                git-lab-2
+
+Answer 14
